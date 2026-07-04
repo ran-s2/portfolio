@@ -866,16 +866,17 @@ header{
         margin: 10px 10px;
     }
     .logo img {
-        width: 50px;
+        width: 80px;
     }
     .fv-inner {
-        bottom: 3vh;
+        bottom: 6vh;
     }
     .fv-inner h1 {
         font-size: 3.5rem;
     }
     .fv-inner p {
         font-size: 1.4rem;
+        font-weight: 600;
     }
     #g-nav {
         width: 40%;
