@@ -181,12 +181,14 @@ header{
 .fv-inner h1 {
     color: #ffffff;
     font-size: 4.8rem;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
 }
 
 .fv-inner p {
     color: #ffffff;
     margin-top: 10px;
     font-size: 2.4rem;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
 }
 
 /* fvの文字をふわっと */
@@ -928,7 +930,7 @@ header{
         font-size: 3.5rem;
     }
     .fv-inner p {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-weight: 600;
     }
     #g-nav {
@@ -960,6 +962,7 @@ header{
     .mv-text {
         font-size: 2rem;
         right: 3%;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
     }
 
     /* コレクション */
@@ -1309,7 +1312,7 @@ header{
 
 /* お問い合わせ */
 .contact-page{
-    max-width: 720px;
+    max-width: 600px;
     margin: 180px auto;
 }
 
