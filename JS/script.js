@@ -5,8 +5,11 @@ $(".openbtn").click(function () {
 });
 
 $("#g-nav a").click(function () {
-    $(".openbtn").removeClass('active');
-    $("#g-nav").removeClass('panelactive');
+    const href = $(this).attr("href");
+    if(href.startsWith("#")){
+        $(".openbtn").removeClass("active");
+        $("#g-nav").removeClass("panelactive");
+    }
 });
 
 
